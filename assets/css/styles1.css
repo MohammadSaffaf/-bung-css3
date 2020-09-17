@@ -1,0 +1,40 @@
+h3:hover {
+    background-color:  red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+ul :first-child {
+    color: #4E342E;
+}
+ul :nth-child(3n+2){
+    color:#689F38 ;
+}
+ul :last-child{
+    color:#EF5350 ;
+}
+section p:first-child{
+    color:#999 ;
+}
+section :not(:last-child){
+    font-size: 1.6em;
+}
+section p:nth-of-type(2n){
+    color: #0277bd;
+    
+}
+button{
+    background-image: linear-gradient(blue,red,black);
+    font-size: 30px
+}
+footer :hover{
+    background: linear-gradient(pink,yellow,black);
+    font-size: 40px;
+   
+    
+}
+footer {
+    background: center/cover no-repeat;
+}
+:root{
+    background-color: lightskyblue;
+}

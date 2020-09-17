@@ -1,0 +1,41 @@
+h3::first-letter{
+    font-size: 3em;
+    color: #00796B;
+    
+    
+}
+h3:hover::first-letter{
+    color:#4FC3F7 ;
+    font-size: 2em;
+}
+ul :first-child::first-letter{
+    color: #4FC3F7;
+    font-size: 2em;
+    text-decoration-line: overline;
+}
+ul :nth-child(2)::first-letter{
+    color:#C51162;
+    font-size: 2em;
+    text-decoration-line: underline;
+
+}
+ul :last-child::first-letter{
+    color: #64DD17;
+    font-size: 2em;
+    text-decoration: line-through black;
+}
+section :first-child{text-indent: 50px;
+color:#37474F ;}
+section :first-child::first-line{
+    font-size: 1.3em;
+}
+p:not(:first-child)::first-letter{
+    color: red;
+    font-size: 1.5em;
+}
+p:not(:first-child)::first-line{
+    color: green;
+}
+p:not(:first-child):hover::first-line{
+    color:#303F9F ;
+}

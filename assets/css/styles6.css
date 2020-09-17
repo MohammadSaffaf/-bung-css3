@@ -1,0 +1,43 @@
+h1::first-letter{
+    color: #00796B;
+font-size: 3em;
+}
+h1:hover::first-letter{
+    color: #4FC3F7;
+}
+  header  h3{
+    text-decoration: line-through;
+}
+ header h3::before {
+    content: url(../img/check.png);
+}
+header h3:last-child::after{
+    content: url(../img/bill.png);
+}
+header h3:first-child:after{
+    content: url(../img/gym.png);
+}
+section h3::before{
+    content: url(../img/doing.png);
+}
+section h3:first-child::after{
+    content: url(../img/dance.png);
+
+}
+section h3:last-child::after{
+    content: url(../img/eat.png);
+
+
+}
+footer h3{
+    text-decoration: underline;
+}
+footer h3::before{
+    content: url(../img/no.png);
+}
+footer h3:first-child::after{
+    content: url(../img/book.png);
+}
+footer h3:last-child::after{
+    content: url(../img/organize.png);
+}
